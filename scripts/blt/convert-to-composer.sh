@@ -45,12 +45,12 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 
 
   # Remove unneeded files.
-  ./vendor/acquia/blt/scripts/blt/update.sh
+  ./vendor/dinoamino/blt/scripts/blt/update.sh
 
   # Install (new) alias
   echo "Installing blt alias"
-  yes | ./vendor/acquia/blt/blt.sh blt:init:shell-alias
-  ./vendor/acquia/blt/blt.sh init
+  yes | ./vendor/dinoamino/blt/blt.sh blt:init:shell-alias
+  ./vendor/dinoamino/blt/blt.sh init
   composer update
 
   echo "Update complete. Please do the following:"
@@ -68,4 +68,3 @@ if [[ $REPLY =~ ^[Yy]$ ]]; then
 else
   exit 1
 fi
-

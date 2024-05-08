@@ -129,7 +129,7 @@ class Updater {
     $this->updateClassName = $update_class;
     $this->fs = new Filesystem();
     $this->setRepoRoot($repo_root);
-    $this->setBltRoot($repo_root . '/vendor/acquia/blt');
+    $this->setBltRoot($repo_root . '/vendor/dinoamino/blt');
     $this->composerJsonFilepath = $this->repoRoot . '/composer.json';
     $this->composerRequiredJsonFilepath = $this->getBltRoot() . '/composer.required.json';
     $this->composerSuggestedJsonFilepath = $this->getBltRoot() . '/composer.suggested.json';

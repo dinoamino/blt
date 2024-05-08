@@ -141,7 +141,7 @@ class ConfigSplitCommand extends BltTasks {
     }
     if (!file_exists($split_dir . '/.htaccess')) {
       $result = $this->taskFilesystemStack()
-        ->copy($this->getConfigValue('repo.root') . '/vendor/acquia/blt/scripts/config-split/templates/.htaccess', $split_dir . '/.htaccess', TRUE)
+        ->copy($this->getConfigValue('repo.root') . '/vendor/dinoamino/blt/scripts/config-split/templates/.htaccess', $split_dir . '/.htaccess', TRUE)
         ->stopOnFail()
         ->setVerbosityThreshold(VerbosityThresholdInterface::VERBOSITY_VERBOSE)
         ->run();

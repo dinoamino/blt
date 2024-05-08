@@ -30,7 +30,7 @@ class ScaffoldCommand extends BltTasks {
     $repo_root = $this->getConfigValue('repo.root');
     $composer_filepath = $repo_root . '/composer.json';
     $composer_contents = json_decode(file_get_contents($composer_filepath), TRUE);
-    $template_composer_contents = json_decode(file_get_contents($repo_root . '/vendor/acquia/blt/subtree-splits/blt-project/composer.json'), TRUE);
+    $template_composer_contents = json_decode(file_get_contents($repo_root . '/vendor/dinoamino/blt/subtree-splits/blt-project/composer.json'), TRUE);
 
     // Set up the migration.
     $legacy_packages = [

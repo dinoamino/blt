@@ -171,7 +171,7 @@ class Inspector implements BuilderAwareInterface, ConfigAwareInterface, Containe
   public function isDrupalSettingsFileValid() {
     $settings_file_contents = file_get_contents($this->getConfigValue('drupal.settings_file'));
     if (!strstr($settings_file_contents,
-      '/../vendor/acquia/blt/settings/blt.settings.php')
+      '/../vendor/dinoamino/blt/settings/blt.settings.php')
     ) {
       return FALSE;
     }

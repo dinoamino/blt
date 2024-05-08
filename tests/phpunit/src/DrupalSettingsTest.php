@@ -27,7 +27,7 @@ class DrupalSettingsTest extends BltProjectTestBase {
       $this->assertFileExists("$this->sandboxInstance/docroot/sites/$site/settings.php");
 
       $this->assertStringContainsString(
-        'require DRUPAL_ROOT . "/../vendor/acquia/blt/settings/blt.settings.php"',
+        'require DRUPAL_ROOT . "/../vendor/dinoamino/blt/settings/blt.settings.php"',
         file_get_contents("$this->sandboxInstance/docroot/sites/$site/settings.php")
       );
 
