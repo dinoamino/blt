@@ -1,5 +1,15 @@
 # BLT
 
+### Important Notice
+
+This repository is from a clone of [acquia/blt](https://github.com/acquia/blt), previously maintained by Acquia and now abandoned. Most of the previous tags and branches have been removed and files modified to suit our needs.
+
+**Changes from original acquia/blt repository:**
+
+* [List specific changes, e.g. "Removed unnecessary files", "Updated dependencies", "Fixed bugs"]
+* All unwanted branches and tags have been removed.
+* New branches and tags have been added for our own use.
+
 ![BLT logo of stylized sandwich](https://github.com/acquia/blt/raw/11.x/docs/_static/blt-logo.png)
 
 ![Build Status](https://github.com/acquia/blt/actions/workflows/orca.yml/badge.svg?main) [![Packagist](https://img.shields.io/packagist/v/acquia/blt.svg)](https://packagist.org/packages/acquia/blt)
